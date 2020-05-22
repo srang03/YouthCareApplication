@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_myinformation"
+            android:icon="@drawable/myinformation_icon"
+            android:title="내 정보" />
+        <item
+            android:id="@+id/nav_mykey"
+            android:icon="@drawable/mykey_icon"
+            android:title="정보입력" />
+        <item
+            android:id="@+id/nav_mycommunity"
+            android:icon="@drawable/mycommunity_icon"
+            android:title="커뮤니티" />
+        <item
+            android:id="@+id/nav_mydiary"
+            android:icon="@drawable/mydiary_icon"
+            android:title="다이어리" />
+    </group>
+</menu>
