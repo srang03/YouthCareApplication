@@ -61,27 +61,28 @@ navigation drawable – 총 4개 메뉴는 fragment로 화면전환 |
 
 
 
-#### □ 프로젝트 물리적 데이터 모델링
-      1. Database Table List
-      |Tables_in_sdp4|
-      |:---:|
-      |info // 남자 평균 키 및 몸무게 저장|
-      |info2 // 여자 평균 키 및 몸무게 저장|
-      |notice // 게시판 데이터 저장|
-      |user // 사용자 정보 저장|
-      
-      2. User table column
-      |User table|
-      |:---:|
-      |info // 남자 평균 키 및 몸무게 저장|
-      |info2 // 여자 평균 키 및 몸무게 저장|
-      |notice // 게시판 데이터 저장|
-      |user // 사용자 정보 저장|
-
-
-
-
 ### ■ 프로젝트 수행 결과
       1.IntroActivity, SignUpAcitivty, LoginActivity
-        1.
-      2.
+        1. IntroActivity : 인트로 화면 출력
+        2. SignUpActivity : 시스템에 회원가입을 할 수 있는 화면
+        3. LoginActivity : 시스템에 로그인할 수 있는 화면
+        
+      2. MainActivity, MyInformationFragment, MyKeyFragment, MyCommunityFragment, MyDiaryFragment
+         1. MainActivity : NavigationView 사용하여 4가지 Fragment 전환 가능
+         2. MyInformationFragment : 현재 나의 신체정보 확인 및 평균 성장 수치 비교
+         3. MyKeyFragment : 나의 신체정보 입력 및 업데이트할 수 있는 화면
+         4. MyCommunityFragment : 성장 커뮤니티를 통해 정보를 교환할 수 있는 게시판
+           1. CommunityItem : 게시판 목록 확인
+           2. CommunityAdapter : 게시판 데이터 관리 및 목록 표시
+           3. WriteActivity : 게시판 글쓰기 기능
+         5. MyDiaryFragment : 하루동안 성장에 대한 할당량 체크를 달력에 표시하고 업데이트 가능한 화면
+         
+         https://www.youtube.com/watch?v=wxQp5-TUEZ8
+         
+         
+### ■ 기대효과 및 활용 방안
+  1. 평균 수치와 입력된 값을 비교하여 현 위치를 제공함으로써 성장 동기부여
+  2. 캘린더와 Push 알림을 통해 자기 주도적 습관형성 유도
+  3. 청소년들이 서로 커뮤니티 서비스를 통해 성장 과정이나 고민의 해결방안 공유
+  
+      
