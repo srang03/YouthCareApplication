@@ -4,6 +4,8 @@
 ### ■ 프로젝트  개요 및 목표
  교육부 공공데이터인 학생건강 기준표 정보를 제공하고 성장에 대한 동기부여를 주며 커뮤니티를 통해 정보를 주고 받을 수 있는 애플리케이션 개발을 목적으로 한다.
 
+  
+
 ### ■ 프로젝트 수행 내용
  #### □ 프로젝트 명세서 작성
   주위의 여러가지 문제점들을 살펴보며 아이디어를 도출해내고 회의를 통해 프로젝트 배경과 필요성을 생각해봄으로서 아이디어를 구체화 하는 과정
@@ -33,8 +35,8 @@
 
 
 
-
-
+  
+  
 
 ### ■ 프로젝트 주요기능 및 기술
 
@@ -42,7 +44,7 @@
 |:---|
 | 사이드 메뉴로 네비게이션 Drawable기능 구현   
 총 4개의 Fragment로 화면전환 가능   
-navigation drawable – 총 4개 메뉴는 fragment로 화면전환 (밑에 Data Flow 참조④-⑦) |
+navigation drawable – 총 4개 메뉴는 fragment로 화면전환 |
 
 | FCM Notification 기능 |
 |:---|
@@ -60,3 +62,14 @@ navigation drawable – 총 4개 메뉴는 fragment로 화면전환 (밑에 Data
 
 
 
+#### □ 프로젝트 물리적 데이터 모델링
+
+![image](https://user-images.githubusercontent.com/53038387/82646165-0e085d00-9c4f-11ea-8bbf-2cd24f43a6fd.png)
+
+
+
+
+### ■ 프로젝트 수행 결과
+      1.IntroActivity, SignUpAcitivty, LoginActivity
+        1.
+      2.
