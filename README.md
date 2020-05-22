@@ -31,9 +31,8 @@
 #### □ 프로젝트 데이터 플로우 작성
 
 
-![image](https://user-images.githubusercontent.com/53038387/82645557-03999380-9c4e-11ea-84c3-daa71b363f97.png)  
-
-
+![image](https://user-images.githubusercontent.com/53038387/82645557-03999380-9c4e-11ea-84c3-daa71b363f97.png)    
+  
 
   
   
@@ -63,8 +62,21 @@ navigation drawable – 총 4개 메뉴는 fragment로 화면전환 |
 
 
 #### □ 프로젝트 물리적 데이터 모델링
-
-![image](https://user-images.githubusercontent.com/53038387/82646165-0e085d00-9c4f-11ea-8bbf-2cd24f43a6fd.png)
+      1. Database Table List
+      |Tables_in_sdp4|
+      |:---:|
+      |info // 남자 평균 키 및 몸무게 저장|
+      |info2 // 여자 평균 키 및 몸무게 저장|
+      |notice // 게시판 데이터 저장|
+      |user // 사용자 정보 저장|
+      
+      2. User table column
+      |User table|
+      |:---:|
+      |info // 남자 평균 키 및 몸무게 저장|
+      |info2 // 여자 평균 키 및 몸무게 저장|
+      |notice // 게시판 데이터 저장|
+      |user // 사용자 정보 저장|
 
 
 
