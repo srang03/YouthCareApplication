@@ -1,10 +1,17 @@
 # YouthCareApplication
 2019-2 Software Development Practice4
 
+
+
 ### ■ 프로젝트  개요 및 목표
  교육부 공공데이터인 학생건강 기준표 정보를 제공하고 성장에 대한 동기부여를 주며 커뮤니티를 통해 정보를 주고 받을 수 있는 애플리케이션 개발을 목적으로 한다.
+ 
 
-  
+
+
+
+
+
 
 ### ■ 프로젝트 수행 내용
  #### □ 프로젝트 명세서 작성
@@ -32,10 +39,12 @@
 
 
 ![image](https://user-images.githubusercontent.com/53038387/82645557-03999380-9c4e-11ea-84c3-daa71b363f97.png)    
-  
 
-  
-  
+
+
+
+
+
 
 ### ■ 프로젝트 주요기능 및 기술
 
@@ -61,6 +70,8 @@ navigation drawable – 총 4개 메뉴는 fragment로 화면전환 |
 
 
 
+
+
 ### ■ 프로젝트 수행 결과
       1.IntroActivity, SignUpAcitivty, LoginActivity
         1. IntroActivity : 인트로 화면 출력
@@ -77,9 +88,16 @@ navigation drawable – 총 4개 메뉴는 fragment로 화면전환 |
            3. WriteActivity : 게시판 글쓰기 기능
          5. MyDiaryFragment : 하루동안 성장에 대한 할당량 체크를 달력에 표시하고 업데이트 가능한 화면
          
-         https://www.youtube.com/watch?v=wxQp5-TUEZ8
-         
-         
+
+
+[![Video Label] (https://www.youtube.com/watch?v=wxQp5-TUEZ8)]
+
+
+
+
+
+
+
 ### ■ 기대효과 및 활용 방안
   1. 평균 수치와 입력된 값을 비교하여 현 위치를 제공함으로써 성장 동기부여
   2. 캘린더와 Push 알림을 통해 자기 주도적 습관형성 유도
