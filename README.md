@@ -38,13 +38,25 @@
 
 ### ■ 프로젝트 주요기능 및 기술
 
-||
-|:---|
 | Navigation View |
+|:---|
 | 사이드 메뉴로 네비게이션 Drawable기능 구현   
 총 4개의 Fragment로 화면전환 가능   
 navigation drawable – 총 4개 메뉴는 fragment로 화면전환 (밑에 Data Flow 참조④-⑦) |
+
 | FCM Notification 기능 |
+|:---|
 | Google에서 제공하는 FireBase의 FCM 기능을 통해서 실시간 알림 서비스 제공
 로그인할 경우 모바일 폰의 토큰 값이 FCM으로 전송이 되어 토큰 값이 저장된 디바이스에게 FCM 메시지 전송 기능을 수행 함. |
+
+| Android → Node.js → Maria DB 통신 |
+|:---|
+|Android에서 입력 값을 입력하면 Json형식으로 포맷을 만들어 http 통신으로 POST 데이터 전송을 통해 Node.js 웹 서버에 전송되어 Insert 문을 통해서 해당 데이터를 Maria DB에 전송 |
+
+| Android ← Node.js ← Maria DB 통신 |
+|:---|
+| Maria DB에 저장되어 있는 데이터를 사용자의 요청에 따라 REST API  요청 Retrofit2 통신방식을 이용하여 네트워크로부터 전달된 데이터를 필요한 형태의 객체로 받을 수 있음 |
+
+
+
 
