@@ -90,7 +90,7 @@ navigation drawable – 총 4개 메뉴는 fragment로 화면전환 |
          
 
 
-[![Video Label] (https://www.youtube.com/watch?v=wxQp5-TUEZ8)]
+[![Video Label] https://gifs.com/gif/K1lzAx](https://www.youtube.com/watch?v=wxQp5-TUEZ8)
 
 
 
