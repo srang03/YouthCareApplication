@@ -90,10 +90,7 @@ navigation drawable – 총 4개 메뉴는 fragment로 화면전환 |
          
 
 
-
-<iframe width="640" height="360" src="https://www.youtube.com/watch?v=wxQp5-TUEZ8" frameborder="0" gesture="media" allowfullscreen=""></iframe>
-
-
+[![Watch the video](https://img.youtube.com/vi/wxQp5-TUEZ8/0.jpg)](https://www.youtube.com/watch?v=wxQp5-TUEZ8)
 
 
 
